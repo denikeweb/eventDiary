@@ -1,0 +1,121 @@
+body, div, a, p, span, ul, li, strong, em, del {
+	font-family: Montserrat, Tahoma, Arial, sans-serif;
+	font-size: 14px;
+}
+body, div, span, strong, em, p {
+	cursor: default;
+}
+button, a{
+	cursor: pointer;
+}
+body {
+	margin: 10px;
+	padding: 10px;
+	background: #f7f7f7;
+	color: #333;
+}
+.wrapper {
+	margin: 0 auto;
+}
+a {
+	color: #6069a3;
+}
+.list {
+	margin-bottom: 30px;
+	margin-top: 20px;
+	border-top: 1px solid #334266;
+}
+.item {
+	display: inline-block;
+	width: 28%;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	padding: 1%;
+	padding-top: 0.5%;
+	vertical-align: top;
+}
+.item:hover {
+	background: #f0f1fa;
+}
+.item:nth-of-type(3n - 1) {
+	margin-left:  5%;
+	margin-right: 5%;
+}
+.item-title {
+	font-weight: bold;
+	font-size: 20px;
+}
+.item-id {
+	font-size: 18px;
+	color: #999;
+}
+.item-text {
+	font-size: 14px;
+	padding: 5px 0;
+}
+.item-footer {
+	color: #334266;
+}
+.item-date {
+	font-weight: bold;
+}
+.item-category {
+	font-weight: bold;
+}
+.form-block-5{
+	display: inline-block;
+	width: 20%;
+	vertical-align: top;
+	margin-bottom: 20px;
+}
+.form-block-5:nth-of-type(1){
+
+}
+.form-block-5:nth-of-type(2){
+	width: 30%;
+}
+.form-block-5:nth-of-type(3){
+
+}
+.form-block-5:nth-of-type(4){
+	width: 10%;
+}
+.form-block-5:nth-of-type(5){
+
+}
+input,textarea, select, button {
+	background: #fefefe;
+	border: 1px solid #6c7ba0;
+	color: #333;
+	padding: 3px;
+	outline: none;
+	font-family: Montserrat, san-serif;
+}
+button {
+	background: #26374a;
+	color: #f7f7f7;
+	padding: 4px 20px;
+	border: 0;
+}
+input:focus,textarea:focus {
+	border: 1px solid #aeb4d4;
+}
+#ed_title {
+	display: block;
+	width: 90%;
+	margin-bottom: 10px;
+}
+#cats_list {
+
+}
+#ed_text {
+	width: 94%;
+	height: 60px;
+}
+#ed_date {
+	width: 90%;
+	margin-bottom: 10px;
+}
+#createSubmitBtn {
+	width: 90%;
+}
